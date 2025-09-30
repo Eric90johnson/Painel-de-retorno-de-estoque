@@ -14,11 +14,17 @@
             margin: 0;
             padding-top: 120px;
             padding-bottom: 100px;
-            /*background-image: url("imagem/backgroud.png");*/
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
+            
         }
+
+        #backgroundImage{
+            background-image: url('../imagem/tela-fogao-ideal.jpg'); /* Substitua 'sua-imagem.jpg' pelo nome e caminho da sua imagem */
+            background-repeat: no-repeat; /* Para que a imagem não se repita */
+            background-size: cover; /* Para a imagem cobrir toda a área do fundo */
+            background-position: center; /* Para centralizar a imagem */
+        }
+
+    
 
         .container {
             max-width: 1000px;
@@ -228,7 +234,7 @@
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
 </head>
-<body>
+<body id="#backgroundImage">
 
     <header>
         <img src="imagem/baixados.png" alt="Logo">
@@ -530,3 +536,4 @@
     </script>
 </body>
 </html>
+
